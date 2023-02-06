@@ -1,0 +1,4 @@
+.Pokegame{
+    display: flex;
+    flex-direction: column;
+}

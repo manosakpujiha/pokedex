@@ -1,13 +1,39 @@
 .Pokecard {
     border: 2px solid green;
-    width: 300px;
+    width: 200px;
     padding: 10px;
     margin: 1rem;
     box-shadow: 7px 10px 12px -5px rgba(238, 232, 232, 0.5);
     background-color: rgba(27, 24, 63, 0.5);
     border-radius: 5px;
 }
-
+.Pokecard-title{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
 .Pokecard-data {
     font-size: 80%;
+}
+
+.Pokedex-win {
+    color: green;  
+}
+
+.Pokedex-loose {
+    color: red;  
+}
+.Pokecard-image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    /* background-color: rgb(6, 13, 17); */
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    transition: all ease 500ms;
+}
+.Pokecard-image:hover {
+    transform: scale(1.25);
+    opacity: 0.7;
 }

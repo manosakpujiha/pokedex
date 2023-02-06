@@ -1,5 +1,14 @@
 .Pokedex{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.Pokedex-cards {
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
 }

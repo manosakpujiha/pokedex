@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  background-color: black;
   color: gold;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -38,3 +39,4 @@
     transform: rotate(360deg);
   }
 }
+
